@@ -158,9 +158,6 @@ function! s:EnablePHPFolds(...) " {{{
     :redraw
 	echo s:foldsCreated . " fold(s) created"
 
-	" Restore cursor
-	exec s:savedCursor
-
 endfunction
 " }}}
 function! s:DisablePHPFolds() " {{{
