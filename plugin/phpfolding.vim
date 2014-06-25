@@ -154,10 +154,6 @@ function! s:EnablePHPFolds(...) " {{{
 		normal! zo
 		let currentItem = currentItem + 1
 	endwhile
-
-    :redraw
-	echo s:foldsCreated . " fold(s) created"
-
 endfunction
 " }}}
 function! s:DisablePHPFolds() " {{{
